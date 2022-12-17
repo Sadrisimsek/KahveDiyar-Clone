@@ -1,0 +1,108 @@
+.container-area {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.yanReklam {
+  width: 70px;
+  position: fixed;
+  z-index: 100;
+  top: 30%;
+  right: 2px;
+  background: #eee;
+  overflow: hidden;
+}
+
+.left {
+  background-color: white !important;
+  width: 35%;
+  height: 580px;
+}
+.left h5 {
+  color: rgb(219, 136, 51);
+}
+
+.left h1 {
+  color: rgb(6, 81, 77);
+}
+
+.right {
+  background-color: rgb(6, 81, 77) !important;
+  width: 38%;
+  height: 580px;
+}
+
+.telno a {
+  text-decoration: none;
+  color: rgb(6, 81, 77);
+}
+
+.eposta a {
+  text-decoration: none;
+  color: rgb(6, 81, 77);
+}
+
+.sosyalmedia a {
+  color: rgb(6, 81, 77);
+  border: 1px solid rgb(6, 81, 77);
+  border-radius: 70%;
+  padding: 7px;
+}
+
+.line {
+  width: 75px;
+  background-color: rgb(6, 81, 77) !important;
+  height: 2px;
+  margin-bottom: 30px;
+}
+
+.line2 {
+  width: 70%;
+  background-color: white;
+  height: 1px;
+}
+
+.right h2 {
+  color: white;
+  font-weight: unset;
+}
+
+.right h5 {
+  color: rgb(219, 136, 51);
+}
+
+.right p {
+  color: white;
+}
+
+.right a {
+  text-decoration: none;
+  background-color: rgb(219, 136, 51);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  width: 30%;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .left {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .right {
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .harita {
+    width: 100%;
+  }
+}
+#formrenk {
+  background-color: rgb(6, 81, 77) !important;
+}

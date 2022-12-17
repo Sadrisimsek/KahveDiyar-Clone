@@ -1,0 +1,440 @@
+@font-face {
+  font-family: Vag;
+  src: url(./font/Vag.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: VagRounded;
+  src: url(./font/VAGRoundedBT.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vag;
+}
+.container-area {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.yanReklam {
+  width: 70px;
+  position: fixed;
+  z-index: 100;
+  top: 30%;
+  right: 2px;
+  background: #eee;
+  overflow: hidden;
+}
+.container1 {
+  z-index: -2;
+  background: #06514d;
+  height: 215px;
+}
+.content {
+  background: #06514d;
+}
+
+.content ul {
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 25px;
+  list-style-type: none;
+}
+.content ul li {
+  display: inline;
+}
+.content a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.content a:hover {
+  color: white;
+}
+.text {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 500px;
+  z-index: 2;
+}
+
+.text::after {
+  font-size: 120px;
+  font-family: "VagRounded", sans-serif;
+  position: absolute;
+  z-index: -1;
+  content: "KAHVEDİYARI";
+  -webkit-text-stroke: 1px #05423f;
+  -webkit-text-fill-color: #06514d;
+}
+.arkaplan {
+  background-color: #d98833 !important;
+  height: 450 px;
+}
+.anaYazı {
+  background-color: #d98833;
+}
+.yazıı {
+  font-size: 20px !important;
+}
+.hikaye {
+  font-size: 20px;
+  text-align: center;
+  padding-right: 170px !important;
+  padding-left: 170px !important;
+}
+.arka {
+  background-image: url(https://www.kahvediyari.com.tr/storage/images/uretim-tesisi.jpg);
+  background-repeat: no-repeat;
+}
+
+.bbb {
+  height: 300px;
+}
+
+.ilk-kart,
+.ikinci-kart,
+.ucuncu-kart,
+.dorduncu-kart {
+  height: 300px;
+  width: auto;
+}
+
+.ilk-kart {
+  background-color: #05423f;
+  color: white;
+}
+
+.ikinci-kart {
+  background-image: url(https://www.kahvediyari.com.tr/storage/images/uretim-tesisi.jpg);
+  background-repeat: no-repeat;
+}
+.ucuncu-kart {
+  background-image: url(https://www.kahvediyari.com.tr/storage/images/sevkiyat.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.dorduncu-kart {
+  padding: 5px !important;
+  color: white;
+  background-color: #d98833;
+  background-repeat: no-repeat;
+}
+.marka {
+  font-size: 15px !important;
+}
+.basarı {
+  color: rgb(221, 140, 51);
+}
+@media screen and (max-width: 1200px) {
+  .container1 {
+    height: 180px;
+  }
+  .content ul {
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .content a {
+    font-size: 16px;
+  }
+  .text {
+    font-size: 34px;
+    margin-left: 390px;
+  }
+  .text::after {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container1 {
+    height: 150px;
+  }
+  .content ul {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .content a {
+    font-size: 14px;
+  }
+  .text {
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 300px;
+  }
+  .text::after {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container1 {
+    height: 120px;
+  }
+  .content ul {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .content a {
+    font-size: 12px;
+  }
+  .text {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 180px;
+  }
+  .text::after {
+    font-size: 50px;
+  }
+}
+.content1 {
+  font-size: 24px;
+  color: #06514d;
+  font-weight: bolder;
+}
+.message {
+  color: #db8a33;
+  font-weight: 800;
+}
+.row input {
+  background-color: #f0efeb;
+  outline: none !important;
+  border: none;
+  border-radius: 0;
+  border-bottom: black 1px solid;
+}
+.row input:focus {
+  box-shadow: none;
+  outline: none;
+  position: relative;
+  background-color: #f0efeb;
+  border-bottom: black 1px solid;
+}
+.altmessage {
+  color: #db8a33;
+  font-size: 14px;
+}
+
+.form {
+  background: #f0efeb;
+  height: 680px;
+}
+.formcontent {
+  outline: none;
+  border: none;
+}
+.butonalt {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  background-color: #d98833;
+}
+.butonalt:hover {
+  color: white;
+}
+.photo .src {
+  background-image: url(./img/concept-1.jpg);
+}
+
+@media screen and (max-width: 1600px) {
+  .photo img {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .photo img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .photo img {
+    visibility: hidden;
+  }
+}
+
+@font-face {
+  font-family: Vag;
+  src: url(./font/Vag.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+
+* {
+  font-family: Vag;
+}
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  background-color: rgb(0, 82, 77);
+  font-family: "Fredoka One", cursive;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 80%;
+}
+
+.footer.info-area {
+  max-width: 340px;
+  overflow: hidden;
+  float: left;
+  vertical-align: top;
+  text-align: left;
+}
+
+.footer.headline {
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.social-icon {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  padding: 8px;
+  border-radius: 55%;
+}
+
+.adresi {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.links-area ul li a {
+  color: white;
+}
+
+.links-area ul li a:hover {
+  color: rgb(217, 132, 61);
+}
+
+.link-btn {
+  margin-top: 30px;
+}
+
+.link-btn a {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 60px;
+  background-color: rgb(221, 140, 51);
+}
+
+.en-alt {
+  color: rgb(142, 95, 55);
+  font-size: 15px;
+
+  font-family: "Fredoka One", cursive;
+  display: flex;
+  justify-content: space-around !important;
+  margin-top: 30px;
+}
+
+.en-alt a {
+  text-decoration: none;
+}
+
+.en-alt-brand {
+  color: rgb(6, 81, 77);
+  font-size: 25px;
+  font-family: "VAGRoundedBT", sans-serif;
+  display: flex;
+  font-family: "Fredoka One", cursive;
+  display: inline-block;
+}
+
+.en-alt-brand:hover {
+  color: rgb(6, 81, 77);
+}
+
+.en-alt-yazı {
+  display: inline-block;
+  color: black;
+  font-size: 18px;
+}
+.link-btn a:hover {
+  color: #ffff;
+}
+
+.navbar-nav {
+  font-size: 18px;
+}
+
+.navbar-nav li {
+  margin-right: 15px;
+}
+.nav-item a:hover {
+  color: #de8f33 !important;
+}
+.navbar {
+  height: 170px;
+  z-index: 2;
+}
+.menu {
+  padding-top: 7px;
+}
+.konseptfoto {
+  background-image: url(./assets/konsept\ kahve\ resmi.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 390px;
+}
+
+.konsept-container {
+  margin-top: 5px;
+  padding-top: 9%;
+  padding-left: 5%;
+  color: #00524d;
+}
+
+.konsept-container h1 {
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.konsept-container h5 {
+  font-weight: normal;
+}
+.konsept-container h6 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1200px) {
+  .konseptyazilar {
+    display: none;
+  }
+
+  .konseptfoto {
+    /* display: none; */
+    background-image: url(./assets/bottom-mobile-tr.jpg);
+    height: 300px;
+    background-position: center;
+  }
+}
